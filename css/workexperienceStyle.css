@@ -1,0 +1,39 @@
+.container-work {
+    padding: 1em;
+    margin-top: 2em;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+}
+
+main ol li {
+    list-style: none;
+}
+
+main ul li {
+    list-style-type: circle;
+    margin-left: 65px;;
+}
+
+.list-item {
+    display: flex;
+    gap: 30px;
+}
+
+p {
+    margin-left: 65px;;
+}
+
+h6 {
+    margin-left: 65px;
+}
+
+.fa {
+    font-size: xx-large;
+}

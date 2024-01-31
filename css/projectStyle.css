@@ -1,0 +1,60 @@
+.github-btn:hover {
+    transform: scale(1.1);
+}
+
+.github-btn {
+    background-color:blanchedalmond;
+    color:#e68a00;
+    text-decoration: none;
+    padding: 1em 1em;
+    border: 0.0625em solid #ffcc80;
+    border-radius: 0.625em;
+    transition: transform 0.4s;
+}
+
+.back-btn:hover {
+    transform: scale(1.1);
+}
+
+.back-btn {
+    background-color: blanchedalmond;
+    color: #e68a00;
+    text-decoration: none;
+    padding: 1em 1em;
+    border: 0.0625em solid #ffcc80;
+    border-radius: 0.625em;
+    transition: transform 0.4s;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(minmax(12.5em, auto));
+    gap: 0.625;
+    max-width: 60em;
+    margin: 0 auto;
+    text-align: center;
+    grid-area: c;
+    grid-template-areas:
+    "c c c"
+    "h h h"
+    "m m m"
+    "a a a";
+  }
+
+.content > *{
+    background: blanchedalmond;
+    padding: 5em;
+}
+
+header {
+    grid-area: h;
+}
+
+main {
+    grid-area: m;
+}
+
+main a {
+    grid-area: a;
+}
